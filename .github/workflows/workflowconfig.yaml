@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: step1
-        uses: echo "Testing Job 1"
+        run: echo "Testing Job 1"
       - name: step2
         run: echo "Hello, world!"
