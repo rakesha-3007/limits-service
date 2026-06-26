@@ -1,0 +1,11 @@
+name: My Workflow
+on:
+  push: null
+  jobs:
+    job1:
+      runs-on: ubuntu-latest
+      steps:
+        - name: step1
+          uses: echo Testing Job   1
+        - name: step2
+          run: echo Hello, world!
